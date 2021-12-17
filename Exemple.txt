@@ -1,0 +1,11 @@
+Donner la Temperature de l'etoile (Kelvin)
+5778
+Donnez le Rayon de l'etoile (Km)
+696340
+Donnez la Distance Planete-Etoile (Km)
+149598870
+Donnez Albedo (0 si non)(en pourcent)
+0.1
+constante solaire : 1369.329224
+la plan├¿te doit ce trouver entre 8.3479440e+007 km et 1.5579160e+008 km
+Temperature d'equilibre : 271.500 Kelvin soit -1.650 Celsius La planete ne peut contenir de l'eau a l'etat liquide

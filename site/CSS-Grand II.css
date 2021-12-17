@@ -1,0 +1,334 @@
+  @font-face { 
+    font-family: "Hack";
+    src: url("../site/Hack-Regular.ttf") format("truetype");
+  }
+body{
+    background-color: rgb(240, 240, 240);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../site/Space4k.jpg);
+
+
+}
+
+.navigation ul { 
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+   margin: 0;
+   background: radial-gradient(rgba(140, 140, 140,75),rgba(0,0,0,0));
+   border-radius: 10px;
+
+}
+.navigation li{
+  display: inline-block;
+  font-size: 20;
+  font-family: "Hack";
+   padding: 30px;
+  font-weight: 500;
+
+}
+.navigation li.active{
+  cursor: default;
+  font-weight: 600;
+  color: white;
+Â²} 
+
+
+.navigation a#l1 {
+  text-decoration: none;
+   display: block;
+  color: black;
+  transition : .3s color;
+    
+}
+
+.navigation a#l1:hover{
+    
+    color: white;
+}  
+
+
+.navigation{
+
+
+
+  }
+  
+.content {
+    width: 960px;
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+    border: 15px solid rgb(230, 230, 230);
+    outline: 1px solid rgb(130, 130, 130);
+    height: 6600px;
+  }
+
+
+.content h1#A {
+   position: absolute;
+    color: rgb(100,100,100);
+    font-family: "Hack";
+    
+}
+.content a#aa  {
+   top: 100px;
+    position: relative;
+    color: black;
+    font-family: "Hack";
+     text-decoration: none;
+    
+}
+.content #texte1 {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 100px;
+    position: relative;
+}
+.content #aaa {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 100px;
+    position: relative;
+}
+.content #Baz {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  list-style-type: none;
+    font-size: 18;
+    top: 100px;
+    position: relative;
+}
+.content #imgADN1{
+position: relative;
+    top: 110px;
+    width: 50%;
+    height: auto;
+    left: 25%;
+
+}
+
+.content #texte2 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 600px;
+    position: relative;
+}
+
+.content #imgADN2{
+position: relative;
+    bottom: 540px;
+    width: 40%;
+    height: auto;
+    left: 30%;
+}
+.content #adddn{
+position: relative;
+top: 30px;
+    width: 50%;
+    height: auto;
+    left: 25%;
+
+}
+
+.content h1#B {
+   position: relative;
+   top: 900px;
+  color: rgb(100, 100, 100);
+  font-family: "Hack";
+}
+.content #texte3 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 900px;
+    position: relative;
+}
+.content h1#h1 {
+   position: relative;
+   top: 900px;
+  color: black;
+  text-align: center;
+  font-size: 55;
+  font-family: "Hack";
+}
+.content #texte4 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 900px;
+    position: relative;
+}
+.content #Eclaire{
+position: relative;
+    top: 20px;
+    width: 60%;
+    height: auto;
+    left: 20%;
+    
+
+}
+
+.content #ligne{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 700px;
+    position: relative;
+}
+
+.pied {
+   
+    background-color: rgba(30, 30, 30,0.99);
+     position: relative;
+    clear:both;
+    margin-top: 100px;
+    height: 120px;
+
+}
+.pied #lex {
+  position: relative;
+  left: 85%;
+  text-decoration: none;
+  top: 50%;
+  font-size: 30;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #bibl {
+  position: relative;
+  right: 5%;
+  text-decoration: none;
+  top: 50%;
+  font-size: 30;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #fc1 {
+  position: relative;
+  text-align: center;
+  top: 25%;
+  font-size: 20;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #fc2 {
+  position: relative;
+  text-align: center;
+  bottom: 30px;
+  font-size: 20;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.content #texte5 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 500px;
+    position: relative;
+}
+.content #SMiller{
+position: relative;
+    width: 20%;
+    height: auto;
+    left: 40%;
+    
+
+}
+.content #Miller{
+position: relative;
+    width: 40%;
+    height: auto;
+    left: 30%;
+    
+
+}
+.content h1#h2 {
+  position: relative;
+  color: black;
+  text-align: center;
+  top: 700px;
+  font-size: 55;
+  font-family: "Hack";
+}
+.content #texte6 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 800px;
+    position: relative;
+}
+
+.content #Met{
+position: relative;
+    width: 60%;
+    height: auto;
+    left: 20%;
+    top: 800px;
+    
+
+}
+.content h1#ff {
+    position: relative;
+    color: rgb(100,100,100);
+    font-family: "Hack";
+    font-size: 200px;
+    left: 40%;
+   top: 900px;
+    
+
+
+
+
+}
+.content a#ff {
+  text-decoration: none;
+  color: rgb(100,100,100);
+
+
+}
+.content #texte7 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 800px;
+    position: relative;
+}
+.content #Ac{
+position: relative;
+    width: 30%;
+    height: auto;
+    left: 35%;
+    top: 800px;
+    
+
+}
+.content #texte8 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 900px;
+    position: relative;
+}
+.content #texte9 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 1000px;
+    position: relative;
+}
+.content #ARN{
+position: relative;
+    width: 50%;
+    height: auto;
+    left: 25%;
+    top: 1000px;
+    
+
+}

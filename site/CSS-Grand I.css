@@ -1,0 +1,430 @@
+﻿  @font-face { 
+    font-family: "Hack";
+    src: url("../site/Hack-Regular.ttf") format("truetype");
+  }
+    @font-face {
+    font-family: "Mono";
+      src: url("../site/Mono-Spatial.ttf") format("truetype");
+
+  }
+  @font-face {
+    font-family: "Space";
+      src: url("../site/Spaceranger.ttf") format("truetype");
+  }
+body{
+    background-color: rgb(240, 240, 240);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../site/Space4k.jpg);
+
+
+}
+
+.navigation ul { 
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+   margin: 0;
+   background: radial-gradient(rgba(140, 140, 140,75),rgba(0,0,0,0));
+   border-radius: 10px;
+
+}
+.navigation li{
+  display: inline-block;
+  font-size: 20;
+  font-family: "Hack";
+   padding: 30px;
+  font-weight: 500;
+
+}
+.navigation li.active{
+  cursor: default;
+  font-weight: 600;
+  color: white;
+²} 
+
+
+.navigation a#l1 {
+  text-decoration: none;
+   display: block;
+  color: black;
+  transition : .3s color;
+    
+}
+
+.navigation a#l1:hover{
+    
+    color: white;
+}  
+
+
+.navigation{
+
+
+
+  }
+    
+
+.content {
+    width: 960px;
+    background-color: rgb(232, 232, 232);
+    margin: auto;
+    border: 15px solid rgb(230, 230, 230);
+    outline: 1px solid rgb(130, 130, 130);
+    height: 7300px;
+    
+}
+
+
+.content h1#A {
+    position: absolute;
+    color: rgb(100,100,100);
+    font-family: "Hack";
+
+
+
+
+}
+.content h1#ff {
+    position: relative;
+    color: rgb(100,100,100);
+    font-family: "Hack";
+    font-size: 200px;
+    left: 40%;
+    top: 50px;
+    
+
+
+
+
+}
+.content a#ff {
+  text-decoration: none;
+  color: rgb(100,100,100);
+
+
+}
+
+.content #texte1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 100px;
+    position: relative;
+
+
+
+}
+.content #img1 {
+    position: relative;
+    top: 160px;
+    width: 50%;
+    height: auto;
+    left: 25%;
+
+
+}
+
+.content table {
+  font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 190px;
+    text-align: center;
+    width: 400px 100px;
+
+
+
+
+}
+
+.content span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+    top: 210px;
+    position: relative;
+
+}
+.content #eq1 {
+    position: relative;
+    top: 330px;
+    left: 10%;
+    width: 30%;
+    height: auto;
+}
+.content #eqt1 {
+    position: relative;
+    top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+    
+}
+.content #solo {
+    position: relative;
+    top: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    text-align: center ;
+
+}
+.content #grph1 {
+    position: relative;
+    top: 350px;
+    height: auto;
+    width: 85%;
+    left: 7%;
+
+}
+.content h1#B {
+    position: relative;
+    top: 380px;
+    color: rgb(100,100,100);
+    font-family: "Hack";
+
+}
+.content #texte2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 460px;
+    position: relative;
+
+}
+.content ul#aa {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28;
+    top: 480px;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+
+}
+.content #texte3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 490px;
+    position: relative;
+
+}
+.content #CM {
+     position: absolute;
+    width: 40%;
+    height: auto;
+    left: 30%;
+
+}
+.content #diagrammePE {
+     position: absolute;
+    width: 40%;
+    height: auto;
+    left: 30%;
+
+}
+.content #texte4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 510px;
+    position: relative;
+
+}
+.content #ab {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+    position: relative;
+    top: 530px;
+    text-align: center ;
+    
+
+}
+.content #ac {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    position: relative;
+    top: 560px;
+}
+.content #ad {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    position: relative;
+    top: 590px;
+}
+.content #eq2 {
+    position: relative;
+    top: 620px;
+    left: 60%;
+    width: 40%;
+    height: auto;
+}
+.content #eqt2 {
+    position: relative;
+    top: 610px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+}
+.content #ae {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+    position: relative;
+    top: 650px;
+}
+.content #eq3 {
+    position: relative;
+    top: 660px;
+    left: 30%;
+    width: 40%;
+    height: auto;
+}
+.content #texte5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 700px;
+    position: relative;
+
+}
+.content #af {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+    position: relative;
+    top: 710px;
+}
+.content #eq4 {
+    position: relative;
+    top: 730px;
+    left: 40%;
+    width: 20%;
+    height: auto;
+}
+.content #ag {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+    position: relative;
+    top: 740px;
+}
+.content #eq5 {
+    position: relative;
+    top: 750px;
+    left: 40%;
+    width: 20%;
+    height: auto;
+}
+.content #eqt3 {
+    position: relative;
+    top: 770px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21;
+}
+
+.content #texte6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 790px;
+    position: relative;
+
+}
+.content #BR {
+     position: absolute;
+    width: 50%;
+    height: auto;
+
+}
+.content #paul {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    right: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leC{
+  position: relative;
+  top: 800px;
+    
+}
+.content h1#C {
+    position: absolute;
+    color: rgb(100,100,100);
+    font-family: "Hack";
+  }
+.content #texte7 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    top: 100px;
+    position: relative;
+  }
+
+
+
+.pied {
+   
+    background-color: rgba(30, 30, 30,0.99);
+     position: relative;
+    clear:both;
+    margin-top: 100px;
+    height: 120px
+    
+   
+   
+    
+
+}
+.pied #lex {
+  position: relative;
+  left: 85%;
+  text-decoration: none;
+  top: 50%;
+  font-size: 30;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #bibl {
+  position: relative;
+  right: 5%;
+  text-decoration: none;
+  top: 50%;
+  font-size: 30;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #fc1 {
+  position: relative;
+  text-align: center;
+  top: 25%;
+  font-size: 20;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #fc2 {
+  position: relative;
+  text-align: center;
+  bottom: 30px;
+  font-size: 20;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}

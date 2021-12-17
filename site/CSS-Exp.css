@@ -1,0 +1,195 @@
+﻿  @font-face { 
+    font-family: "Hack";
+      src: url("../site/Hack-Regular.ttf") format("truetype");
+   
+  }
+  @font-face {
+    font-family: "Mono";
+      src: url("../site/Mono-Spatial.ttf") format("truetype");
+
+  }
+  @font-face {
+    font-family: "Space";
+      src: url("../site/Spaceranger.ttf") format("truetype");
+  }
+
+
+body{
+    background-color: rgb(240, 240, 240);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../site/Space4k.jpg);
+
+
+    
+
+
+}
+
+
+
+.navigation ul { 
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+   margin: 0;
+   background: radial-gradient(rgba(140, 140, 140,75),rgba(0,0,0,0));
+   border-radius: 10px;
+
+}
+.navigation li{
+  display: inline-block;
+  font-size: 20;
+  font-family: "Hack";
+   padding: 30px;
+  font-weight: 500;
+
+}
+.navigation li.active{
+  cursor: default;
+  font-weight: 600;
+  color: white;
+²} 
+
+
+.navigation a#l1 {
+  text-decoration: none;
+   display: block;
+  color: black;
+  transition : .3s color;
+    
+}
+
+.navigation a#l1:hover{
+    
+    color: white;
+}  
+
+
+.navigation{
+  margin-bottom: 0px;
+
+
+  }
+    
+
+.content {
+    width: 960px;
+    background-color: rgb(232, 232, 232);
+    margin: auto;
+    border: 15px solid rgb(230, 230, 230) ;
+    outline: 1px solid rgb(130, 130, 130);
+    height: 1600px;
+    
+  	
+}
+
+.content h1{
+
+
+   font-size: 60;
+  text-align: center;
+   color: rgb(100,100,100);
+    font-family: "Hack";
+}
+.content h2{
+
+
+    font-size: 40;
+  text-align: center;
+   color: black;
+    font-family: "Hack";
+}
+.content #texte1 {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    
+    }
+    .content #a {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+   padding: : 50%;
+    
+    }
+    .content #b {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+   padding: : 50%;
+    
+    }
+    .content #texte2 {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    
+    }
+    .content #v1 {
+  left: 15%;
+  position: relative;
+    
+    }
+
+
+
+
+
+.pied {
+   
+    background-color: rgba(30, 30, 30,0.99);
+     position: relative;
+    clear:both;
+    margin-top: 100px;
+    height: 120px;
+    
+   
+   
+    
+
+}
+.pied #lex {
+  position: relative;
+  left: 85%;
+  text-decoration: none;
+  top: 50%;
+  font-size: 30;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #bibl {
+  position: relative;
+  right: 5%;
+  text-decoration: none;
+  top: 50%;
+  font-size: 30;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #fc1 {
+  position: relative;
+  text-align: center;
+  top: 25%;
+  font-size: 20;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
+.pied #fc2 {
+  position: relative;
+  text-align: center;
+  bottom: 30px;
+  font-size: 20;
+  font-family: "Hack";
+  color: white ;
+
+
+
+}
